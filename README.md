@@ -17,4 +17,16 @@ A graph is a collection of data represented by nodes and connections between nod
 #### Specific kinds of graphs
 * Directed graph - can only move along edges in one direction
 * Undirected graph - allows movement in both directions along edges.
+* Cyclic graph - edges allow you to visit at least one verticle. 
+* Acyclic graphy - vertices can only be visited once
 
+### Breadth first search
+* It's a way to search the graph.    
+* Explors all possible paths to find one with the smallest possible weight
+* Traversing across before traversing down
+* Never revisits nodes
+* Useful for route or path finding
+
+#### Breadth first algorithm
+* A starting vertex.  In a tree it would be the root node.  In an undirected graph we'd have a labled vertex to start at.
+* Uses a que: first in, first out.  
