@@ -30,3 +30,4 @@ A graph is a collection of data represented by nodes and connections between nod
 #### Breadth first algorithm
 * A starting vertex.  In a tree it would be the root node.  In an undirected graph we'd have a labled vertex to start at.
 * Uses a que: first in, first out.  
+* If you know the solutions is close to the root, this is a good way to go
